@@ -1,0 +1,72 @@
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/bg-video";
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/popup";
+@import "components/story";
+
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+@import "pages/home";
+
+
+
+.glass-backdrop{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    background: linear-gradient(to right bottom, rgba(#d9b0cf, 0.8), rgba(#c9a2ce, 0.9));
+    /* backdrop-filter: blur(10rem); */
+    overflow: hidden;
+}
+.glass-circ{
+    z-index: 2;
+    /* background: linear-gradient(to right top, rgba(217, 176, 207, 0.8), rgba(201, 162, 206, 0.9)); */
+    position: absolute;
+    border-radius: 50%;
+    /* backdrop-filter: blur(10rem); */
+    filter: blur(6rem);
+    background: #dacbd6;
+}
+
+.circle-1{
+    height: 40rem;
+    width: 40rem;
+    top: -1rem;
+    left: -7rem;
+}
+.circle-2 {
+    height: 30rem;
+    width: 30rem;
+    top: 55rem;
+    left: 22rem;
+}
+.circle-3{
+    height: 35rem;
+    width: 35rem;
+    top: 8rem;
+    right: 4rem;
+}
+
+
+
+  
+
+
+    
